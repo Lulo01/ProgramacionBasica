@@ -3,9 +3,10 @@
 
 int main() {
 	
-	int matrix[2][3] = { {2, 3, 5}, {4, 6, 8} };
-	printf("%d", matrix[1][2]);
+	int matrix[2][3] = { {2, 2, 5}, {4, 7, 8} };
+	printf("%d", matrix[2][2]);
 	
 	return 0;
 	
 }
+
