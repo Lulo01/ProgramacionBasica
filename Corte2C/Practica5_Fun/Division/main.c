@@ -9,7 +9,7 @@ int enterValue() {
 
 float divide(int a, int b) {
     if(b == 0) {
-        printf("Error: Can't divide between zero'\n");
+        printf("Error: No se puede dividir por 0'\n");
         return 0;
     }
     float r = (float)a / b;
@@ -36,3 +36,4 @@ int main() {
     
     return 0;
 }
+
